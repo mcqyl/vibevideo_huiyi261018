@@ -1,0 +1,8 @@
+node_modules
+
+# 渲染产物：只保留最终成片（web 版），中间帧与母版都不提交
+out/*
+!out/把回忆拼好给你_mcqyl_v2_web.mp4
+
+# 字体：体积较大且受版权保护，需自备（可用系统自带 STXingkai / 华文行楷）
+assets/BrushCN.ttf

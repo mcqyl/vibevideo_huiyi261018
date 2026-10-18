@@ -1,0 +1,42 @@
+# ===== 依赖（不提交，clone 后 npm install 即可）=====
+node_modules/
+
+# ===== 第三方参考项目 / 字体（版权与体积考虑，不提交）=====
+claude-mv-skill-main/
+mv/assets/BrushCN.ttf
+
+# ===== 语音识别模型（约 1.9GB，可自行下载）=====
+models/
+
+# ===== 渲染中间产物（体积大、可重新生成）=====
+mv/out/*
+!mv/out/把回忆拼好给你_mcqyl_v2_web.mp4
+
+# ===== 调试辅助脚本与临时目录 =====
+asr*.py
+asr_all.txt
+mv/analyze.py
+mv/ascii.py
+mv/check.py
+mv/cropascii.py
+mv/hexgrid.py
+mv/probe.py
+tmpt/
+/out/
+
+# ===== 本地工作区记忆（不对外）=====
+.workbuddy-ai/
+
+# ===== 重复音频（工程内已有 mv/assets/song.m4a）=====
+/assets/
+
+# ===== 母版视频（超过 GitHub 单文件 100MB 限制）=====
+# 仓库内只保留 web 版（50MB），母版请本地另存
+
+# ===== 系统与编辑器 =====
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.idea/
+.vscode/
